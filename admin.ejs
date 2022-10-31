@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how much couples?</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <form method="get" action="http://localhost:3000/board">          
+        <div class="container">
+            <label for="card_count">How many pairs of cards?</label>
+            <input id="num" name="card_count" type="number" min="2" max="12" required >
+          <button onclick="setCardsCount()" type="submit">Login</button>
+        </div>
+      </form>
+      <footer>This great game made by Itzchak & Amitai</footer>
+      <script type="text/javascript" src="admin.js"></script>
+</body>
+</html>
